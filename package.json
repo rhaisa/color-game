@@ -1,0 +1,8 @@
+{
+  "name": "color-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rhaisa/color-game.git",
+  "author": "Rhaisa Alves <rhaisalouiseadm@gmail.com>",
+  "license": "MIT"
+}
