@@ -50,12 +50,16 @@ function setUpSquares(){
     //compare color to the pickedColor
     if(clickedColor === pickedColor){
       messageDisplay.textContent = "Correct!"
+      messageDisplay.classList.add("correct");
+      messageDisplay.classList.remove("wrong");
       resetButton.textContent = "Play Again?"
       changeColors(clickedColor);
       h1.style.backgroundColor = clickedColor;
     } else{
      this.style.backgroundColor = "#232323";
      messageDisplay.textContent = "Try Again"
+     messageDisplay.classList.add("wrong");
+     messageDisplay.classList.remove("correct");
      }
   });
 }

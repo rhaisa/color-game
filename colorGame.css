@@ -26,7 +26,7 @@ h1 {
   background-color: #90949c;
   margin: 0;
   text-transform: uppercase;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #colorDisplay {
   font-size: 120%;
@@ -40,7 +40,7 @@ h1 {
   background-color: white;
   height: 30px;
   text-align: center;
-  color: black;
+  color: #90949c;
 }
 
 .selected {
@@ -65,4 +65,14 @@ button {
 button:hover {
   color: white;
   background-color: #90949c;
+}
+
+.correct {
+  color: #006a4e;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrong {
+  color: red;
 }
